@@ -70,6 +70,7 @@
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="Controls" Type="Folder">
+			<Item Name="5-bar Side.ctl" Type="VI" URL="../../Controls/5-bar Side.ctl"/>
 			<Item Name="Drive Status.ctl" Type="VI" URL="../../Controls/Drive Status.ctl"/>
 			<Item Name="Encoder Module.ctl" Type="VI" URL="../../Controls/Encoder Module.ctl"/>
 			<Item Name="Motor Module.ctl" Type="VI" URL="../../Controls/Motor Module.ctl"/>
