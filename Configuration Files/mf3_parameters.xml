@@ -183,22 +183,22 @@
             <item>0.000000</item>
             <item>0.000000</item>
             <item>0.000000</item>
-            <item>191.900000</item>
+            <item>191.700000</item>
             <item>-51.000000</item>
-            <item>28.284271</item>
-            <item>173.090960</item>
+            <item>33.446151</item>
+            <item>178.052839</item>
             <item>-51.000000</item>
-            <item>-77.781746</item>
-            <item>279.156977</item>
+            <item>-72.619866</item>
+            <item>284.118856</item>
             <item>-27.000000</item>
-            <item>-218.708127</item>
-            <item>138.230595</item>
+            <item>-213.546248</item>
+            <item>143.192475</item>
             <item>-27.000000</item>
-            <item>-218.708127</item>
-            <item>138.230595</item>
+            <item>-213.546248</item>
+            <item>143.192475</item>
             <item>-27.000000</item>
-            <item>-218.708127</item>
-            <item>138.230595</item>
+            <item>-213.546248</item>
+            <item>143.192475</item>
          </p>
          <T0 dim="[4,4]" type="SGL">
             <item>0.000000</item>
@@ -208,11 +208,11 @@
             <item>1.000000</item>
             <item>0.000000</item>
             <item>0.000000</item>
-            <item>-218.708127</item>
+            <item>-213.546248</item>
             <item>0.000000</item>
             <item>0.000000</item>
             <item>-1.000000</item>
-            <item>138.230595</item>
+            <item>143.192475</item>
             <item>0.000000</item>
             <item>0.000000</item>
             <item>0.000000</item>
@@ -230,4 +230,39 @@
          <side sel="Right" type="Enum U16">1</side>
       </Index>
    </kinematic_parameters>
+   <dynamic_parameters mems="3">
+      <Thumb mems="1">
+         <gear_ratios dim="[7]" type="SGL">
+            <item>-104.000000</item>
+            <item>-20.000000</item>
+            <item>-14.000000</item>
+            <item>-14.000000</item>
+            <item>1.000000</item>
+            <item>1.000000</item>
+            <item>1.000000</item>
+         </gear_ratios>
+      </Thumb>
+      <Middle mems="1">
+         <gear_ratios dim="[7]" type="SGL">
+            <item>-104.000000</item>
+            <item>-20.000000</item>
+            <item>-14.000000</item>
+            <item>-14.000000</item>
+            <item>1.000000</item>
+            <item>1.000000</item>
+            <item>1.000000</item>
+         </gear_ratios>
+      </Middle>
+      <Index mems="1">
+         <gear_ratios dim="[7]" type="SGL">
+            <item>-104.000000</item>
+            <item>-14.000000</item>
+            <item>-14.000000</item>
+            <item>-14.000000</item>
+            <item>1.000000</item>
+            <item>1.000000</item>
+            <item>1.000000</item>
+         </gear_ratios>
+      </Index>
+   </dynamic_parameters>
 </GXML_Root>
