@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GXML_Root name="MF3">
+   <kinematic_parameters mems="3">
+      <Thumb mems="3">
+         <k dim="[7,3]" type="SGL">
+            <item>0.000000</item>
+            <item>0.000000</item>
+            <item>1.000000</item>
+            <item>-1.000000</item>
+            <item>0.000000</item>
+            <item>0.000000</item>
+            <item>0.000000</item>
+            <item>0.000000</item>
+            <item>1.000000</item>
+            <item>0.000000</item>
+            <item>0.000000</item>
+            <item>1.000000</item>
+            <item>1.000000</item>
+            <item>0.000000</item>
+            <item>0.000000</item>
+            <item>0.000000</item>
+            <item>1.000000</item>
+            <item>0.000000</item>
+            <item>0.000000</item>
+            <item>0.000000</item>
+            <item>1.000000</item>
+         </k>
+         <p dim="[7,3]" type="SGL">
+            <item>0.000000</item>
+            <item>0.000000</item>
+            <item>0.000000</item>
+            <item>0.000000</item>
+            <item>20.000000</item>
+            <item>121.700000</item>
+            <item>-96.950000</item>
+            <item>53.300000</item>
+            <item>0.000000</item>
+            <item>-96.950000</item>
+            <item>-96.700000</item>
+            <item>0.000000</item>
+            <item>102.350000</item>
+            <item>-96.700000</item>
+            <item>148.700000</item>
+            <item>102.350000</item>
+            <item>-96.700000</item>
+            <item>148.700000</item>
+            <item>102.350000</item>
+            <item>-96.700000</item>
+            <item>148.700000</item>
+         </p>
+         <T0 dim="[4,4]" type="SGL">
+            <item>0.000000</item>
+            <item>1.000000</item>
+            <item>0.000000</item>
+            <item>102.350000</item>
+            <item>1.000000</item>
+            <item>0.000000</item>
+            <item>0.000000</item>
+            <item>-96.700000</item>
+            <item>0.000000</item>
+            <item>0.000000</item>
+            <item>-1.000000</item>
+            <item>148.700000</item>
+            <item>0.000000</item>
+            <item>0.000000</item>
+            <item>0.000000</item>
+            <item>1.000000</item>
+         </T0>
+         <types dim="[7]" type="Enum U16">
+            <joint_type sel="Revolute">0</joint_type>
+            <joint_type sel="Revolute">0</joint_type>
+            <joint_type sel="Revolute">0</joint_type>
+            <joint_type sel="Revolute">0</joint_type>
+            <joint_type sel="Revolute">0</joint_type>
+            <joint_type sel="Revolute">0</joint_type>
+            <joint_type sel="Revolute">0</joint_type>
+         </types>
+         <side sel="Left" type="Enum U16">0</side>
+      </Thumb>
+      <Middle mems="3">
+         <k dim="[7,3]" type="SGL">
+            <item>0.000000</item>
+            <item>0.000000</item>
+            <item>1.000000</item>
+            <item>1.000000</item>
+            <item>0.000000</item>
+            <item>0.000000</item>
+            <item>0.000000</item>
+            <item>0.000000</item>
+            <item>1.000000</item>
+            <item>0.000000</item>
+            <item>0.000000</item>
+            <item>1.000000</item>
+            <item>-1.000000</item>
+            <item>0.000000</item>
+            <item>0.000000</item>
+            <item>0.000000</item>
+            <item>1.000000</item>
+            <item>0.000000</item>
+            <item>0.000000</item>
+            <item>0.000000</item>
+            <item>1.000000</item>
+         </k>
+         <p dim="[7,3]" type="SGL">
+            <item>0.000000</item>
+            <item>0.000000</item>
+            <item>0.000000</item>
+            <item>0.000000</item>
+            <item>-20.000000</item>
+            <item>121.700000</item>
+            <item>96.950000</item>
+            <item>13.300000</item>
+            <item>0.000000</item>
+            <item>96.950000</item>
+            <item>-136.700000</item>
+            <item>0.000000</item>
+            <item>-102.350000</item>
+            <item>-136.700000</item>
+            <item>148.700000</item>
+            <item>-102.350000</item>
+            <item>-136.700000</item>
+            <item>148.700000</item>
+            <item>-102.350000</item>
+            <item>-136.700000</item>
+            <item>148.700000</item>
+         </p>
+         <T0 dim="[4,4]" type="SGL">
+            <item>0.000000</item>
+            <item>1.000000</item>
+            <item>0.000000</item>
+            <item>-102.350000</item>
+            <item>1.000000</item>
+            <item>0.000000</item>
+            <item>0.000000</item>
+            <item>-136.700000</item>
+            <item>0.000000</item>
+            <item>0.000000</item>
+            <item>-1.000000</item>
+            <item>148.700000</item>
+            <item>0.000000</item>
+            <item>0.000000</item>
+            <item>0.000000</item>
+            <item>1.000000</item>
+         </T0>
+         <types dim="[7]" type="Enum U16">
+            <joint_type sel="Revolute">0</joint_type>
+            <joint_type sel="Revolute">0</joint_type>
+            <joint_type sel="Revolute">0</joint_type>
+            <joint_type sel="Revolute">0</joint_type>
+            <joint_type sel="Revolute">0</joint_type>
+            <joint_type sel="Revolute">0</joint_type>
+            <joint_type sel="Revolute">0</joint_type>
+         </types>
+         <side sel="Right" type="Enum U16">1</side>
+      </Middle>
+      <Index mems="3">
+         <k dim="[7,3]" type="SGL">
+            <item>0.000000</item>
+            <item>0.000000</item>
+            <item>1.000000</item>
+            <item>0.000000</item>
+            <item>0.707107</item>
+            <item>0.707107</item>
+            <item>-1.000000</item>
+            <item>0.000000</item>
+            <item>0.000000</item>
+            <item>-1.000000</item>
+            <item>0.000000</item>
+            <item>0.000000</item>
+            <item>0.000000</item>
+            <item>-0.707107</item>
+            <item>-0.707107</item>
+            <item>0.000000</item>
+            <item>0.707107</item>
+            <item>-0.707107</item>
+            <item>-1.000000</item>
+            <item>0.000000</item>
+            <item>0.000000</item>
+         </k>
+         <p dim="[7,3]" type="SGL">
+            <item>0.000000</item>
+            <item>0.000000</item>
+            <item>0.000000</item>
+            <item>0.000000</item>
+            <item>0.000000</item>
+            <item>191.900000</item>
+            <item>-51.000000</item>
+            <item>28.284271</item>
+            <item>173.090960</item>
+            <item>-51.000000</item>
+            <item>-77.781746</item>
+            <item>279.156977</item>
+            <item>-27.000000</item>
+            <item>-218.708127</item>
+            <item>138.230595</item>
+            <item>-27.000000</item>
+            <item>-218.708127</item>
+            <item>138.230595</item>
+            <item>-27.000000</item>
+            <item>-218.708127</item>
+            <item>138.230595</item>
+         </p>
+         <T0 dim="[4,4]" type="SGL">
+            <item>0.000000</item>
+            <item>1.000000</item>
+            <item>0.000000</item>
+            <item>-27.000000</item>
+            <item>1.000000</item>
+            <item>0.000000</item>
+            <item>0.000000</item>
+            <item>-218.708127</item>
+            <item>0.000000</item>
+            <item>0.000000</item>
+            <item>-1.000000</item>
+            <item>138.230595</item>
+            <item>0.000000</item>
+            <item>0.000000</item>
+            <item>0.000000</item>
+            <item>1.000000</item>
+         </T0>
+         <types dim="[7]" type="Enum U16">
+            <joint_type sel="Revolute">0</joint_type>
+            <joint_type sel="Revolute">0</joint_type>
+            <joint_type sel="Revolute">0</joint_type>
+            <joint_type sel="Revolute">0</joint_type>
+            <joint_type sel="Revolute">0</joint_type>
+            <joint_type sel="Revolute">0</joint_type>
+            <joint_type sel="Revolute">0</joint_type>
+         </types>
+         <side sel="Right" type="Enum U16">1</side>
+      </Index>
+   </kinematic_parameters>
+</GXML_Root>
