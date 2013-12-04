@@ -114,6 +114,7 @@
 			<Item Name="Motor Names.ctl" Type="VI" URL="../../Controls/Motor Names.ctl"/>
 			<Item Name="Kinematic Parameters.ctl" Type="VI" URL="../../Controls/Kinematic Parameters.ctl"/>
 			<Item Name="Dynamic Parameters.ctl" Type="VI" URL="../../Controls/Dynamic Parameters.ctl"/>
+			<Item Name="5-bar Parameters.ctl" Type="VI" URL="../../Controls/5-bar Parameters.ctl"/>
 		</Item>
 		<Item Name="Chassis" Type="MXI RIO Chassis">
 			<Property Name="crio.ProgrammingMode" Type="Str">fpga</Property>
@@ -1278,6 +1279,7 @@
 				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
+				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="../../../../Program Files/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
 			<Item Name="MotorsInterface.lvbitx" Type="Document" URL="../../FPGA Bitfiles/MotorsInterface.lvbitx"/>
