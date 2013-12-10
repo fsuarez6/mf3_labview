@@ -116,6 +116,9 @@
 			<Item Name="Dynamic Parameters.ctl" Type="VI" URL="../../Controls/Dynamic Parameters.ctl"/>
 			<Item Name="5-bar Parameters.ctl" Type="VI" URL="../../Controls/5-bar Parameters.ctl"/>
 		</Item>
+		<Item Name="Helpers" Type="Folder">
+			<Item Name="Avoid NaN.vi" Type="VI" URL="../../Helpers/Avoid NaN.vi"/>
+		</Item>
 		<Item Name="Chassis" Type="MXI RIO Chassis">
 			<Property Name="crio.ProgrammingMode" Type="Str">fpga</Property>
 			<Property Name="crio.ResourceID" Type="Str">RIO0</Property>
