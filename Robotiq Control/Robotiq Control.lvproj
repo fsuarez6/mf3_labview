@@ -1,9 +1,9 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="11008008">
-	<Property Name="varPersistentID:{8C2387DC-2314-49C8-9B49-34F9FC16542B}" Type="Ref">/RT PXI Target/Common/Share Variables.lvlib/stop</Property>
-	<Property Name="varPersistentID:{8D056F6C-F2BE-4E7B-B569-1E74C7ED051B}" Type="Ref">/RT PXI Target/Common/Share Variables.lvlib/mf3_positions</Property>
-	<Property Name="varPersistentID:{94F2D16C-4534-42E1-9703-118D6486E152}" Type="Ref">/RT PXI Target/Common/Share Variables.lvlib/mf3_currents</Property>
-	<Property Name="varPersistentID:{FF7523C5-CF4D-4814-B145-F995A5212B7D}" Type="Ref">/RT PXI Target/Common/Share Variables.lvlib/mf3_forces</Property>
+	<Property Name="varPersistentID:{48F4A7B3-F9E9-4135-BD67-6424CAA14580}" Type="Ref">/RT PXI Target/Common/Share Variables.lvlib/mf3_forces</Property>
+	<Property Name="varPersistentID:{864A4C42-F72B-4721-A0D6-23FA9F21A140}" Type="Ref">/RT PXI Target/Common/Share Variables.lvlib/mf3_currents</Property>
+	<Property Name="varPersistentID:{CE6F5921-627B-4F3E-8667-AE5D39A24DD6}" Type="Ref">/RT PXI Target/Common/Share Variables.lvlib/mf3_positions</Property>
+	<Property Name="varPersistentID:{D656F278-4ACE-4C81-AB5C-15328CC43DE1}" Type="Ref">/RT PXI Target/Common/Share Variables.lvlib/stop</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
 		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
@@ -110,21 +110,8 @@
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
-		<Item Name="Controls" Type="Folder">
-			<Item Name="Vector3D Fingers.ctl" Type="VI" URL="../../Common/controls/Vector3D Fingers.ctl"/>
-			<Item Name="5-bar Side.ctl" Type="VI" URL="../../Common/controls/5-bar Side.ctl"/>
-			<Item Name="Drive Status.ctl" Type="VI" URL="../../Common/controls/Drive Status.ctl"/>
-			<Item Name="Encoder Module.ctl" Type="VI" URL="../../Controls/Encoder Module.ctl"/>
-			<Item Name="Motor Module.ctl" Type="VI" URL="../../Controls/Motor Module.ctl"/>
-			<Item Name="Motor Names.ctl" Type="VI" URL="../../Common/controls/Motor Names.ctl"/>
-			<Item Name="Kinematic Parameters.ctl" Type="VI" URL="../../Common/controls/Kinematic Parameters.ctl"/>
-			<Item Name="Dynamic Parameters.ctl" Type="VI" URL="../../Common/controls/Dynamic Parameters.ctl"/>
-			<Item Name="5-bar Parameters.ctl" Type="VI" URL="../../Common/controls/5-bar Parameters.ctl"/>
-		</Item>
-		<Item Name="Common" Type="Folder">
-			<Item Name="Array to Vector3D.vi" Type="VI" URL="../../Common/helpers/Array to Vector3D.vi"/>
-			<Item Name="Share Variables.lvlib" Type="Library" URL="../../Common/Share Variables.lvlib"/>
-			<Item Name="Vector3D to Array.vi" Type="VI" URL="../../Common/helpers/Vector3D to Array.vi"/>
+		<Item Name="Common" Type="Folder" URL="../../Common">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Chassis" Type="MXI RIO Chassis">
 			<Property Name="crio.ProgrammingMode" Type="Str">fpga</Property>
@@ -1171,8 +1158,6 @@
 				</Item>
 			</Item>
 		</Item>
-		<Item Name="Finger.lvclass" Type="LVClass" URL="../../Common/classes/Finger/Finger.lvclass"/>
-		<Item Name="MF3.lvclass" Type="LVClass" URL="../../Common/classes/MF3/MF3.lvclass"/>
 		<Item Name="Robotiq Control.vi" Type="VI" URL="../Robotiq Control.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -1227,13 +1212,12 @@
 			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
 			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
 			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
-			<Item Name="_nicrio_cRIO-9505_DriveStatus.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Targets/FPGA/cRIO/cRIO-9505/controls.llb/_nicrio_cRIO-9505_DriveStatus.ctl"/>
 			<Item Name="niLvFpgaErrorClusterFromErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaErrorClusterFromErrorCode.vi"/>
 			<Item Name="nirviErrorClusterFromErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/RVI Host/nirviSupport.llb/nirviErrorClusterFromErrorCode.vi"/>
 			<Item Name="nirviWhatTheDeviceIsDoing.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/ClientSDK/nirviWhatTheDeviceIsDoing.ctl"/>
 			<Item Name="nirio_resource_hc.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/nirio_resource_hc.ctl"/>
 			<Item Name="niLvFpga_Open_NI 9157.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/NI 9157/niLvFpga_Open_NI 9157.vi"/>
-			<Item Name="Avoid NaN.vi" Type="VI" URL="../../Common/helpers/Avoid NaN.vi"/>
+			<Item Name="_nicrio_cRIO-9505_DriveStatus.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Targets/FPGA/cRIO/cRIO-9505/controls.llb/_nicrio_cRIO-9505_DriveStatus.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

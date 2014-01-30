@@ -170,12 +170,12 @@
             <item>0.000000</item>
             <item>-0.707107</item>
             <item>-0.707107</item>
-            <item>0.000000</item>
-            <item>0.707107</item>
-            <item>-0.707107</item>
             <item>-1.000000</item>
             <item>0.000000</item>
             <item>0.000000</item>
+            <item>0.000000</item>
+            <item>-0.707107</item>
+            <item>0.707107</item>
          </k>
          <p dim="[7,3]" type="SGL">
             <item>0.000000</item>
@@ -265,4 +265,30 @@
          </gear_ratios>
       </Index>
    </dynamic_parameters>
+   <motor_parameters mems="2">
+      <initial_angles dim="[10]" type="SGL">
+         <item>-0.892212</item>
+         <item>-0.866381</item>
+         <item>0.606153</item>
+         <item>1.253321</item>
+         <item>0.593761</item>
+         <item>-1.085769</item>
+         <item>0.090932</item>
+         <item>0.109607</item>
+         <item>-0.358665</item>
+         <item>-2.077291</item>
+      </initial_angles>
+      <directions dim="[10]" type="SGL">
+         <item>1.000000</item>
+         <item>1.000000</item>
+         <item>1.000000</item>
+         <item>1.000000</item>
+         <item>-1.000000</item>
+         <item>-1.000000</item>
+         <item>-1.000000</item>
+         <item>-1.000000</item>
+         <item>1.000000</item>
+         <item>-1.000000</item>
+      </directions>
+   </motor_parameters>
 </GXML_Root>
