@@ -42,7 +42,7 @@
 	</Item>
 	<Item Name="mf3_positions" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
-		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">True</Property>
 		<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 		<Property Name="Network:BuffSize" Type="Str">50</Property>
 		<Property Name="Network:ElemSize" Type="Str">9</Property>
@@ -61,7 +61,7 @@
 	</Item>
 	<Item Name="stop" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
-		<Property Name="Global:EnableTimestamp" Type="Str">True</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
 		<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 		<Property Name="Network:BuffSize" Type="Str">50</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>

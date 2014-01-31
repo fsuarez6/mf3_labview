@@ -291,4 +291,21 @@
          <item>-1.000000</item>
       </directions>
    </motor_parameters>
+   <finger_offsets mems="3">
+      <Thumb dim="[3]" type="SGL">
+         <item>-15.518700</item>
+         <item>-14.587000</item>
+         <item>-6.163600</item>
+      </Thumb>
+      <Middle dim="[3]" type="SGL">
+         <item>-16.165130</item>
+         <item>-1.068100</item>
+         <item>-20.408509</item>
+      </Middle>
+      <Index dim="[3]" type="SGL">
+         <item>-20.039700</item>
+         <item>-23.129000</item>
+         <item>0.637400</item>
+      </Index>
+   </finger_offsets>
 </GXML_Root>
