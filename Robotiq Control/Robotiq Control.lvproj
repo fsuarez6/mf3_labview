@@ -1,9 +1,12 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="11008008">
-	<Property Name="varPersistentID:{48F4A7B3-F9E9-4135-BD67-6424CAA14580}" Type="Ref">/RT PXI Target/Common/Share Variables.lvlib/mf3_forces</Property>
-	<Property Name="varPersistentID:{864A4C42-F72B-4721-A0D6-23FA9F21A140}" Type="Ref">/RT PXI Target/Common/Share Variables.lvlib/mf3_currents</Property>
-	<Property Name="varPersistentID:{CE6F5921-627B-4F3E-8667-AE5D39A24DD6}" Type="Ref">/RT PXI Target/Common/Share Variables.lvlib/mf3_positions</Property>
-	<Property Name="varPersistentID:{D656F278-4ACE-4C81-AB5C-15328CC43DE1}" Type="Ref">/RT PXI Target/Common/Share Variables.lvlib/stop</Property>
+	<Property Name="varPersistentID:{0BAB099E-6D56-4FB5-8063-1D1E2B6383B5}" Type="Ref">/RT PXI Target - MF3/Common/Share Variables.lvlib/robotiq_command</Property>
+	<Property Name="varPersistentID:{48F4A7B3-F9E9-4135-BD67-6424CAA14580}" Type="Ref">/RT PXI Target - MF3/Common/Share Variables.lvlib/mf3_forces</Property>
+	<Property Name="varPersistentID:{823B9C7A-5B32-4330-97F6-E80920A5B96F}" Type="Ref">/RT PXI Target - MF3/Common/Share Variables.lvlib/robotiq_positions</Property>
+	<Property Name="varPersistentID:{864A4C42-F72B-4721-A0D6-23FA9F21A140}" Type="Ref">/RT PXI Target - MF3/Common/Share Variables.lvlib/mf3_currents</Property>
+	<Property Name="varPersistentID:{9D5CCFC8-2D2D-4899-9DFA-5563F10F6CC4}" Type="Ref">/RT PXI Target - MF3/Common/Share Variables.lvlib/mf3_metrics</Property>
+	<Property Name="varPersistentID:{CE6F5921-627B-4F3E-8667-AE5D39A24DD6}" Type="Ref">/RT PXI Target - MF3/Common/Share Variables.lvlib/mf3_positions</Property>
+	<Property Name="varPersistentID:{D656F278-4ACE-4C81-AB5C-15328CC43DE1}" Type="Ref">/RT PXI Target - MF3/Common/Share Variables.lvlib/stop</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
 		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
@@ -61,9 +64,9 @@
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
-	<Item Name="RT PXI Target" Type="RT PXI Chassis">
-		<Property Name="alias.name" Type="Str">RT PXI Target</Property>
-		<Property Name="alias.value" Type="Str">138.100.76.119</Property>
+	<Item Name="RT PXI Target - MF3" Type="RT PXI Chassis">
+		<Property Name="alias.name" Type="Str">RT PXI Target - MF3</Property>
+		<Property Name="alias.value" Type="Str">192.168.0.5</Property>
 		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,PharLap;CPU,x86;</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
 		<Property Name="host.ResponsivenessCheckPingDelay" Type="UInt">5000</Property>
@@ -1153,7 +1156,7 @@
 						<Property Name="SupportDownload" Type="Bool">true</Property>
 						<Property Name="SupportResourceEstimation" Type="Bool">true</Property>
 						<Property Name="TargetName" Type="Str">FPGA Target</Property>
-						<Property Name="TopLevelVI" Type="Ref">/RT PXI Target/Chassis/FPGA Target/Motors Interface.vi</Property>
+						<Property Name="TopLevelVI" Type="Ref">/RT PXI Target - MF3/Chassis/FPGA Target/Motors Interface.vi</Property>
 					</Item>
 				</Item>
 			</Item>
@@ -1234,7 +1237,6 @@
 				<Item Name="Get TDEnum from Data__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get TDEnum from Data__ogtk.vi"/>
 			</Item>
 			<Item Name="Robotiq.lvclass" Type="LVClass" URL="../../../robotiq_labview/Class/Robotiq.lvclass"/>
-			<Item Name="Finger Command.ctl" Type="VI" URL="../../../robotiq_labview/Controls/Finger Command.ctl"/>
 			<Item Name="Gripper Command.ctl" Type="VI" URL="../../../robotiq_labview/Controls/Gripper Command.ctl"/>
 			<Item Name="Gripper Status.ctl" Type="VI" URL="../../../robotiq_labview/Controls/Gripper Status.ctl"/>
 			<Item Name="Finger Status.ctl" Type="VI" URL="../../../robotiq_labview/Controls/Finger Status.ctl"/>
@@ -1244,6 +1246,7 @@
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Finger Command.ctl" Type="VI" URL="../../../robotiq_labview/Controls/Finger Command.ctl"/>
 			<Item Name="niLvFpga_Close_NI 9157.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/NI 9157/niLvFpga_Close_NI 9157.vi"/>
 			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
 			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
