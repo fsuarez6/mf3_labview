@@ -1,12 +1,17 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="11008008">
 	<Property Name="varPersistentID:{0BAB099E-6D56-4FB5-8063-1D1E2B6383B5}" Type="Ref">/RT PXI Target - MF3/Common/Share Variables.lvlib/robotiq_command</Property>
+	<Property Name="varPersistentID:{2280CEC2-A5F1-48ED-AB8C-CDBA33D92C0F}" Type="Ref">/RT PXI Target - MF3/Common/helpers/Change Mode Request.vi/RS Bistable/error out</Property>
 	<Property Name="varPersistentID:{48F4A7B3-F9E9-4135-BD67-6424CAA14580}" Type="Ref">/RT PXI Target - MF3/Common/Share Variables.lvlib/mf3_forces</Property>
+	<Property Name="varPersistentID:{5D9CA6BB-8641-49B6-86CB-3E092EE0A86E}" Type="Ref">/RT PXI Target - MF3/Common/helpers/Change Mode Request.vi/RS Bistable/reset</Property>
+	<Property Name="varPersistentID:{6A376BDC-DACA-488A-BA79-D23F792EE697}" Type="Ref">/RT PXI Target - MF3/Common/helpers/Change Mode Request.vi/RS Bistable/set</Property>
 	<Property Name="varPersistentID:{823B9C7A-5B32-4330-97F6-E80920A5B96F}" Type="Ref">/RT PXI Target - MF3/Common/Share Variables.lvlib/robotiq_positions</Property>
 	<Property Name="varPersistentID:{864A4C42-F72B-4721-A0D6-23FA9F21A140}" Type="Ref">/RT PXI Target - MF3/Common/Share Variables.lvlib/mf3_currents</Property>
 	<Property Name="varPersistentID:{9D5CCFC8-2D2D-4899-9DFA-5563F10F6CC4}" Type="Ref">/RT PXI Target - MF3/Common/Share Variables.lvlib/mf3_metrics</Property>
 	<Property Name="varPersistentID:{CE6F5921-627B-4F3E-8667-AE5D39A24DD6}" Type="Ref">/RT PXI Target - MF3/Common/Share Variables.lvlib/mf3_positions</Property>
+	<Property Name="varPersistentID:{CFEDDD94-E667-45B2-A6BB-37F0047EF106}" Type="Ref">/RT PXI Target - MF3/Common/helpers/Change Mode Request.vi/RS Bistable/output</Property>
 	<Property Name="varPersistentID:{D656F278-4ACE-4C81-AB5C-15328CC43DE1}" Type="Ref">/RT PXI Target - MF3/Common/Share Variables.lvlib/stop</Property>
+	<Property Name="varPersistentID:{F11B5D6F-91CB-488E-AEEE-F9EBEEBA4DBC}" Type="Ref">/RT PXI Target - MF3/Common/helpers/Change Mode Request.vi/RS Bistable/error in</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
 		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
