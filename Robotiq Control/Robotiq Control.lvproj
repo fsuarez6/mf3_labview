@@ -1268,8 +1268,6 @@
 			<Item Name="nirio_resource_hc.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/nirio_resource_hc.ctl"/>
 			<Item Name="niLvFpga_Open_NI 9157.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/NI 9157/niLvFpga_Open_NI 9157.vi"/>
 			<Item Name="_nicrio_cRIO-9505_DriveStatus.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Targets/FPGA/cRIO/cRIO-9505/controls.llb/_nicrio_cRIO-9505_DriveStatus.ctl"/>
-			<Item Name="NI_FunctionBlock Libraries.lvlib" Type="Library" URL="/&lt;vilib&gt;/functionblocks/NI_FunctionBlock Libraries.lvlib"/>
-			<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
