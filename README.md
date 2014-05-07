@@ -1,6 +1,12 @@
 mf3_labview
 ===========
 
-Labview software for the Master Finger 3. A Haptic device design by the by the Group of Robots and Intelligent Machines from the Universidad Politécnica de Madrid.
+Labview software for the 3-Finger Haptic Device developed by the [Group of Robots and Intelligent Machines](http://www.romin.upm.es/) from the [Universidad Politécnica de Madrid](http://www.upm.es/internacional). This group is part of the [Centre for Automation and Robotics](http://www.car.upm-csic.es/) (CAR UPM-CSIC). On going development continues in the **labview-2013** branch.
 
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/fsuarez6/mf3_labview/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+**Maintainer:** Francisco Suárez Ruiz, [http://www.romin.upm.es/fsuarez/](http://www.romin.upm.es/fsuarez/)
+
+### Documentation
+
+  * See the installation instructions below.
+  * This repository.
+  * TelerobCAR [wiki](http://www.romin.upm.es/wiki/)
