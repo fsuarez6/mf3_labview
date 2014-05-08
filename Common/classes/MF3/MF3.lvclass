@@ -21,6 +21,7 @@
 	<Item Name="MF3.ctl" Type="Class Private Data" URL="MF3.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Controls" Type="Folder"/>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Load Parameters From XML.vi" Type="VI" URL="../Load Parameters From XML.vi">
