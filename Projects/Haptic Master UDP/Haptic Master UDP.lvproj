@@ -4,13 +4,15 @@
 	<Property Name="varPersistentID:{06EDCEEB-71E0-497E-B36A-541EEE429B06}" Type="Ref">/RT PXI Target - MF3/Common/Share Variables.lvlib/mf3_forces</Property>
 	<Property Name="varPersistentID:{0C0EA984-4E0E-4525-85EA-1AD2718A1ACF}" Type="Ref">/RT PXI Target - MF3/Common/helpers/Change Mode Request.vi/RS Bistable/error out</Property>
 	<Property Name="varPersistentID:{27BF53B7-434C-474B-A711-90C51872B791}" Type="Ref">/RT PXI Target - MF3/Common/Share Variables.lvlib/stop</Property>
-	<Property Name="varPersistentID:{2A243568-F1A7-46E3-A6BD-2432812591E2}" Type="Ref">/RT PXI Target - MF3/Common/Share Variables.lvlib/mf3_positions</Property>
+	<Property Name="varPersistentID:{2A243568-F1A7-46E3-A6BD-2432812591E2}" Type="Ref">/RT PXI Target - MF3/Common/Share Variables.lvlib/mf3_positions_log</Property>
 	<Property Name="varPersistentID:{332A29CB-7635-462A-AB39-6FC490B3FA50}" Type="Ref">/RT PXI Target - MF3/Common/helpers/Change Mode Request.vi/RS Bistable/output</Property>
+	<Property Name="varPersistentID:{33A85802-1F9F-47B0-998D-645D7DDE2F06}" Type="Ref">/RT PXI Target - MF3/Common/Share Variables.lvlib/triangle_centroid_velocity</Property>
 	<Property Name="varPersistentID:{91FE63E4-C385-4279-94D4-265843722A61}" Type="Ref">/RT PXI Target - MF3/Common/Share Variables.lvlib/mf3_currents</Property>
 	<Property Name="varPersistentID:{BC3A82B7-71E6-4434-B0E3-66D87892B7CA}" Type="Ref">/RT PXI Target - MF3/Common/helpers/Change Mode Request.vi/RS Bistable/reset</Property>
 	<Property Name="varPersistentID:{BC87A470-545A-41C6-862C-42872F118E96}" Type="Ref">/RT PXI Target - MF3/Common/Share Variables.lvlib/robotiq_command</Property>
 	<Property Name="varPersistentID:{E25614E8-E689-4E2E-8D1A-55FE7650FD38}" Type="Ref">/RT PXI Target - MF3/Common/Share Variables.lvlib/robotiq_positions</Property>
 	<Property Name="varPersistentID:{E4458E63-E432-4E59-97C7-9940B1DEB732}" Type="Ref">/RT PXI Target - MF3/Common/Share Variables.lvlib/completed_trial</Property>
+	<Property Name="varPersistentID:{EEB4852D-3B87-4C99-9D65-F0D19BD44D44}" Type="Ref">/RT PXI Target - MF3/Common/Share Variables.lvlib/triangle_centroid_pose</Property>
 	<Property Name="varPersistentID:{EF7168F4-9357-4D4F-838C-FAB6AA98E1F6}" Type="Ref">/RT PXI Target - MF3/Common/helpers/Change Mode Request.vi/RS Bistable/error in</Property>
 	<Property Name="varPersistentID:{F20C4158-2359-4909-934B-41DCB4DC6811}" Type="Ref">/RT PXI Target - MF3/Common/Share Variables.lvlib/grasp_modes</Property>
 	<Property Name="varPersistentID:{FF0C3DBF-B35A-4941-B53B-1E976FD10170}" Type="Ref">/RT PXI Target - MF3/Common/helpers/Change Mode Request.vi/RS Bistable/set</Property>
