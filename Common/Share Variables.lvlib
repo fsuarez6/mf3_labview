@@ -17,6 +17,29 @@
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"-!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
 	</Item>
+	<Item Name="force_feedback" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ElemSize" Type="Str">1</Property>
+		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">True</Property>
+		<Property Name="numTypedefs" Type="UInt">2</Property>
+		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
+		<Property Name="Real-Time Features:ArrayLength" Type="Str">9</Property>
+		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
+		<Property Name="Real-Time Features:DatapointsInWaveform" Type="Str">1</Property>
+		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
+		<Property Name="type" Type="Str">Global</Property>
+		<Property Name="typedefName1" Type="Str">OmniFeedback.ctl</Property>
+		<Property Name="typedefName2" Type="Str">Vector3.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../../../labview_ros/omni_msgs/OmniFeedback.ctl</Property>
+		<Property Name="typedefPath2" Type="PathRel">../../../labview_ros/geometry_msgs/Vector3.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$GYA!!!"-!A!!!!!!'!!&gt;!#A!"?!!(1!I!!8E!"U!+!!&amp;[!#I!]1!!!!!!!!!"#V:F9X2P=D-O9X2M!":!5!!$!!!!!1!#"7:P=G.F!#Y!]1!!!!!!!!!"#V:F9X2P=D-O9X2M!"J!5!!$!!!!!1!##("P=WFU;7^O!!!V!0%!!!!!!!!!!2"0&lt;7ZJ2G6F:'*B9WMO9X2M!"R!5!!#!!-!"!R0&lt;7ZJ2G6F:'*B9WM!!!%!"1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
 	<Item Name="grasp_modes" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
 		<Property Name="Global:EnableTimestamp" Type="Str">True</Property>

@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="13008000">
 	<Property Name="varPersistentID:{041EE854-3D73-4E02-BA8F-D4DF313098A9}" Type="Ref">/RT PXI Target - MF3/Common/Share Variables.lvlib/mf3_metrics</Property>
+	<Property Name="varPersistentID:{04F3FAF1-D1F0-4CB2-B3C6-A4519A14EC33}" Type="Ref">/RT PXI Target - MF3/Common/Share Variables.lvlib/force_feedback</Property>
 	<Property Name="varPersistentID:{06EDCEEB-71E0-497E-B36A-541EEE429B06}" Type="Ref">/RT PXI Target - MF3/Common/Share Variables.lvlib/mf3_forces</Property>
 	<Property Name="varPersistentID:{0C0EA984-4E0E-4525-85EA-1AD2718A1ACF}" Type="Ref">/RT PXI Target - MF3/Common/helpers/Change Mode Request.vi/RS Bistable/error out</Property>
 	<Property Name="varPersistentID:{27BF53B7-434C-474B-A711-90C51872B791}" Type="Ref">/RT PXI Target - MF3/Common/Share Variables.lvlib/stop</Property>
