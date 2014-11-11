@@ -4,15 +4,18 @@
 	<Property Name="varPersistentID:{06EDCEEB-71E0-497E-B36A-541EEE429B06}" Type="Ref">/RT PXI Target - MF3/Common/Share Variables.lvlib/mf3_forces</Property>
 	<Property Name="varPersistentID:{0C0EA984-4E0E-4525-85EA-1AD2718A1ACF}" Type="Ref">/RT PXI Target - MF3/Common/helpers/Change Mode Request.vi/RS Bistable/error out</Property>
 	<Property Name="varPersistentID:{27BF53B7-434C-474B-A711-90C51872B791}" Type="Ref">/RT PXI Target - MF3/Common/Share Variables.lvlib/stop</Property>
-	<Property Name="varPersistentID:{2A243568-F1A7-46E3-A6BD-2432812591E2}" Type="Ref">/RT PXI Target - MF3/Common/Share Variables.lvlib/mf3_positions</Property>
+	<Property Name="varPersistentID:{30362851-277F-4B04-B03B-8FC007597B93}" Type="Ref">/RT PXI Target - MF3/Common/Share Variables.lvlib/triangle_centroid_velocity</Property>
 	<Property Name="varPersistentID:{332A29CB-7635-462A-AB39-6FC490B3FA50}" Type="Ref">/RT PXI Target - MF3/Common/helpers/Change Mode Request.vi/RS Bistable/output</Property>
 	<Property Name="varPersistentID:{91FE63E4-C385-4279-94D4-265843722A61}" Type="Ref">/RT PXI Target - MF3/Common/Share Variables.lvlib/mf3_currents</Property>
+	<Property Name="varPersistentID:{9F1AE1F4-F148-4246-AEE6-26A5739A3CDE}" Type="Ref">/RT PXI Target - MF3/Common/Share Variables.lvlib/force_feedback</Property>
 	<Property Name="varPersistentID:{BC3A82B7-71E6-4434-B0E3-66D87892B7CA}" Type="Ref">/RT PXI Target - MF3/Common/helpers/Change Mode Request.vi/RS Bistable/reset</Property>
 	<Property Name="varPersistentID:{BC87A470-545A-41C6-862C-42872F118E96}" Type="Ref">/RT PXI Target - MF3/Common/Share Variables.lvlib/robotiq_command</Property>
 	<Property Name="varPersistentID:{E25614E8-E689-4E2E-8D1A-55FE7650FD38}" Type="Ref">/RT PXI Target - MF3/Common/Share Variables.lvlib/robotiq_positions</Property>
 	<Property Name="varPersistentID:{E4458E63-E432-4E59-97C7-9940B1DEB732}" Type="Ref">/RT PXI Target - MF3/Common/Share Variables.lvlib/completed_trial</Property>
 	<Property Name="varPersistentID:{EF7168F4-9357-4D4F-838C-FAB6AA98E1F6}" Type="Ref">/RT PXI Target - MF3/Common/helpers/Change Mode Request.vi/RS Bistable/error in</Property>
 	<Property Name="varPersistentID:{F20C4158-2359-4909-934B-41DCB4DC6811}" Type="Ref">/RT PXI Target - MF3/Common/Share Variables.lvlib/grasp_modes</Property>
+	<Property Name="varPersistentID:{F5830683-9071-40CA-99D1-CA7239C3A1F7}" Type="Ref">/RT PXI Target - MF3/Common/Share Variables.lvlib/mf3_positions_log</Property>
+	<Property Name="varPersistentID:{FE98E3B5-ADAC-44C1-B318-D7FB53BDECDD}" Type="Ref">/RT PXI Target - MF3/Common/Share Variables.lvlib/triangle_centroid_pose</Property>
 	<Property Name="varPersistentID:{FF0C3DBF-B35A-4941-B53B-1E976FD10170}" Type="Ref">/RT PXI Target - MF3/Common/helpers/Change Mode Request.vi/RS Bistable/set</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
@@ -36,15 +39,19 @@
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
+				<Item Name="AddNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/AddNamedSemaphorePrefix.vi"/>
 				<Item Name="Close Panel.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Close Panel.vi"/>
 				<Item Name="compatCalcOffset.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatCalcOffset.vi"/>
 				<Item Name="compatFileDialog.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatFileDialog.vi"/>
 				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
+				<Item Name="Create Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Create Semaphore.vi"/>
 				<Item Name="Destroy Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Destroy Semaphore.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="Get Semaphore Status.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Get Semaphore Status.vi"/>
 				<Item Name="GetNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/GetNamedSemaphorePrefix.vi"/>
 				<Item Name="NI_FTP.lvlib" Type="Library" URL="/&lt;vilib&gt;/FTP/NI_FTP.lvlib"/>
 				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
+				<Item Name="Obtain Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Obtain Semaphore Reference.vi"/>
 				<Item Name="Open Panel.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Open Panel.vi"/>
 				<Item Name="Release Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore Reference.vi"/>
 				<Item Name="Release Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore.vi"/>
@@ -53,6 +60,7 @@
 				<Item Name="Semaphore Name &amp; Ref DB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore Name &amp; Ref DB.vi"/>
 				<Item Name="Semaphore RefNum" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore RefNum"/>
 				<Item Name="Semaphore Refnum Core.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore Refnum Core.ctl"/>
+				<Item Name="Validate Semaphore Size.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Validate Semaphore Size.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
@@ -1266,6 +1274,11 @@ AddOutputFilter chunkFilter
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="MotorsInterface.lvbitx" Type="Document" URL="../../../FPGA/MotorsInterface.lvbitx"/>
+			<Item Name="Point.ctl" Type="VI" URL="../../../../labview_ros/geometry_msgs/Point.ctl"/>
+			<Item Name="Quaternion.ctl" Type="VI" URL="../../../../labview_ros/geometry_msgs/Quaternion.ctl"/>
+			<Item Name="Pose.ctl" Type="VI" URL="../../../../labview_ros/geometry_msgs/Pose.ctl"/>
+			<Item Name="OmniFeedback.ctl" Type="VI" URL="../../../../labview_ros/omni_msgs/OmniFeedback.ctl"/>
+			<Item Name="Vector3.ctl" Type="VI" URL="../../../../labview_ros/geometry_msgs/Vector3.ctl"/>
 			<Item Name="niFpgaWaitOnOcc.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaWaitOnOcc.vi"/>
 			<Item Name="niLvFpga_Close_NI 9157.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/NI 9157/niLvFpga_Close_NI 9157.vi"/>
 			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
@@ -1278,7 +1291,6 @@ AddOutputFilter chunkFilter
 			<Item Name="nirio_resource_hc.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/nirio_resource_hc.ctl"/>
 			<Item Name="niLvFpga_Open_NI 9157.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/NI 9157/niLvFpga_Open_NI 9157.vi"/>
 			<Item Name="_nicrio_cRIO-9505_DriveStatus.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Targets/FPGA/cRIO/cRIO-9505/controls.llb/_nicrio_cRIO-9505_DriveStatus.ctl"/>
-			<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

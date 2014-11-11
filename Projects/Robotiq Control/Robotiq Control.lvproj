@@ -6,13 +6,16 @@
 	<Property Name="varPersistentID:{5E9C113B-927E-47A9-9627-A71F693D7DAA}" Type="Ref">/RT PXI Target - MF3/Common/Share Variables.lvlib/grasp_modes</Property>
 	<Property Name="varPersistentID:{613B7575-3685-4EE2-9989-210DB9D222AA}" Type="Ref">/RT PXI Target - MF3/Common/Share Variables.lvlib/robotiq_command</Property>
 	<Property Name="varPersistentID:{618B47A7-E0C3-46BB-9BE2-216B973BC49A}" Type="Ref">/RT PXI Target - MF3/Common/helpers/Change Mode Request.vi/RS Bistable/error in</Property>
-	<Property Name="varPersistentID:{7DA04605-B993-4520-865D-671631D94FE0}" Type="Ref">/RT PXI Target - MF3/Common/Share Variables.lvlib/mf3_positions</Property>
 	<Property Name="varPersistentID:{89D703D1-1445-487D-B1C2-ACDC8842216D}" Type="Ref">/RT PXI Target - MF3/Common/Share Variables.lvlib/stop</Property>
 	<Property Name="varPersistentID:{8DF09C5C-B0E4-4218-95A4-35C99C6FA4BD}" Type="Ref">/RT PXI Target - MF3/Common/helpers/Change Mode Request.vi/RS Bistable/reset</Property>
 	<Property Name="varPersistentID:{8E971E97-C3CB-4C14-8C04-53C277B6ADAE}" Type="Ref">/RT PXI Target - MF3/Common/Share Variables.lvlib/mf3_forces</Property>
 	<Property Name="varPersistentID:{96C960AD-B831-4673-8115-845F8FA5E11F}" Type="Ref">/RT PXI Target - MF3/Common/Share Variables.lvlib/robotiq_positions</Property>
+	<Property Name="varPersistentID:{96D8C5EA-D991-4D99-BE54-C583B50CF7B8}" Type="Ref">/RT PXI Target - MF3/Common/Share Variables.lvlib/mf3_positions_log</Property>
+	<Property Name="varPersistentID:{B62BBBCB-8E65-4C6C-8806-D70E72CE114A}" Type="Ref">/RT PXI Target - MF3/Common/Share Variables.lvlib/triangle_centroid_velocity</Property>
 	<Property Name="varPersistentID:{C71EF0EE-6133-4AB1-9E82-2179207971F7}" Type="Ref">/RT PXI Target - MF3/Common/helpers/Change Mode Request.vi/RS Bistable/error out</Property>
+	<Property Name="varPersistentID:{C81769A9-75DC-4ADE-98C9-4E25D11B647E}" Type="Ref">/RT PXI Target - MF3/Common/Share Variables.lvlib/force_feedback</Property>
 	<Property Name="varPersistentID:{C826EB9E-4747-425E-8080-FE1EC0849D4D}" Type="Ref">/RT PXI Target - MF3/Common/Share Variables.lvlib/mf3_metrics</Property>
+	<Property Name="varPersistentID:{DDA0B321-5485-42A4-AE5C-0B1FB3A937A8}" Type="Ref">/RT PXI Target - MF3/Common/Share Variables.lvlib/triangle_centroid_pose</Property>
 	<Property Name="varPersistentID:{EF71CFB3-2EF8-4DCC-AE47-A5997096F8CD}" Type="Ref">/RT PXI Target - MF3/Common/helpers/Change Mode Request.vi/RS Bistable/set</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
@@ -1297,6 +1300,11 @@ AddOutputFilter chunkFilter
 			<Item Name="MotorsInterface.lvbitx" Type="Document" URL="../../../FPGA/MotorsInterface.lvbitx"/>
 			<Item Name="Finger Status.ctl" Type="VI" URL="../../../../robotiq_labview/Controls/Finger Status.ctl"/>
 			<Item Name="Gripper Status.ctl" Type="VI" URL="../../../../robotiq_labview/Controls/Gripper Status.ctl"/>
+			<Item Name="Point.ctl" Type="VI" URL="../../../../labview_ros/geometry_msgs/Point.ctl"/>
+			<Item Name="Quaternion.ctl" Type="VI" URL="../../../../labview_ros/geometry_msgs/Quaternion.ctl"/>
+			<Item Name="Pose.ctl" Type="VI" URL="../../../../labview_ros/geometry_msgs/Pose.ctl"/>
+			<Item Name="OmniFeedback.ctl" Type="VI" URL="../../../../labview_ros/omni_msgs/OmniFeedback.ctl"/>
+			<Item Name="Vector3.ctl" Type="VI" URL="../../../../labview_ros/geometry_msgs/Vector3.ctl"/>
 			<Item Name="niFpgaWaitOnOcc.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaWaitOnOcc.vi"/>
 			<Item Name="niLvFpga_Close_NI 9157.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/NI 9157/niLvFpga_Close_NI 9157.vi"/>
 			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
