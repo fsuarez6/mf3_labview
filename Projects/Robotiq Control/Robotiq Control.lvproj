@@ -146,6 +146,9 @@ AddOutputFilter chunkFilter
 		<Item Name="Common" Type="Folder" URL="../../../Common">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="labview_ros" Type="Folder" URL="../../../../labview_ros">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Chassis" Type="MXI RIO Chassis">
 			<Property Name="crio.ProgrammingMode" Type="Str">fpga</Property>
 			<Property Name="crio.ResourceID" Type="Str">RIO0</Property>
@@ -1289,7 +1292,6 @@ AddOutputFilter chunkFilter
 				<Item Name="Array of VData to VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VArray__ogtk.vi"/>
 				<Item Name="Get TDEnum from Data__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get TDEnum from Data__ogtk.vi"/>
 			</Item>
-			<Item Name="RobotiqTouch.ctl" Type="VI" URL="../../../../labview_ros/takktile_msgs/RobotiqTouch.ctl"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="Robotiq.lvclass" Type="LVClass" URL="../../../../robotiq_labview/Class/Robotiq.lvclass"/>
 			<Item Name="Gripper Command.ctl" Type="VI" URL="../../../../robotiq_labview/Controls/Gripper Command.ctl"/>
@@ -1300,11 +1302,6 @@ AddOutputFilter chunkFilter
 			<Item Name="MotorsInterface.lvbitx" Type="Document" URL="../../../FPGA/MotorsInterface.lvbitx"/>
 			<Item Name="Finger Status.ctl" Type="VI" URL="../../../../robotiq_labview/Controls/Finger Status.ctl"/>
 			<Item Name="Gripper Status.ctl" Type="VI" URL="../../../../robotiq_labview/Controls/Gripper Status.ctl"/>
-			<Item Name="Point.ctl" Type="VI" URL="../../../../labview_ros/geometry_msgs/Point.ctl"/>
-			<Item Name="Quaternion.ctl" Type="VI" URL="../../../../labview_ros/geometry_msgs/Quaternion.ctl"/>
-			<Item Name="Pose.ctl" Type="VI" URL="../../../../labview_ros/geometry_msgs/Pose.ctl"/>
-			<Item Name="OmniFeedback.ctl" Type="VI" URL="../../../../labview_ros/omni_msgs/OmniFeedback.ctl"/>
-			<Item Name="Vector3.ctl" Type="VI" URL="../../../../labview_ros/geometry_msgs/Vector3.ctl"/>
 			<Item Name="niFpgaWaitOnOcc.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaWaitOnOcc.vi"/>
 			<Item Name="niLvFpga_Close_NI 9157.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/NI 9157/niLvFpga_Close_NI 9157.vi"/>
 			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
@@ -1317,6 +1314,8 @@ AddOutputFilter chunkFilter
 			<Item Name="nirio_resource_hc.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/nirio_resource_hc.ctl"/>
 			<Item Name="niLvFpga_Open_NI 9157.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/NI 9157/niLvFpga_Open_NI 9157.vi"/>
 			<Item Name="_nicrio_cRIO-9505_DriveStatus.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Targets/FPGA/cRIO/cRIO-9505/controls.llb/_nicrio_cRIO-9505_DriveStatus.ctl"/>
+			<Item Name="NI_FunctionBlock Libraries.lvlib" Type="Library" URL="/&lt;vilib&gt;/functionblocks/NI_FunctionBlock Libraries.lvlib"/>
+			<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
