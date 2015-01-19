@@ -6,6 +6,7 @@
 	<Property Name="varPersistentID:{5E9C113B-927E-47A9-9627-A71F693D7DAA}" Type="Ref">/RT PXI Target - MF3/Common/Share Variables.lvlib/grasp_modes</Property>
 	<Property Name="varPersistentID:{613B7575-3685-4EE2-9989-210DB9D222AA}" Type="Ref">/RT PXI Target - MF3/Common/Share Variables.lvlib/robotiq_command</Property>
 	<Property Name="varPersistentID:{618B47A7-E0C3-46BB-9BE2-216B973BC49A}" Type="Ref">/RT PXI Target - MF3/Common/helpers/Change Mode Request.vi/RS Bistable/error in</Property>
+	<Property Name="varPersistentID:{64F35592-D39F-43B2-8C9C-25D5AC4B681A}" Type="Ref">/RT PXI Target - MF3/Common/Share Variables.lvlib/takktile_sensors</Property>
 	<Property Name="varPersistentID:{89D703D1-1445-487D-B1C2-ACDC8842216D}" Type="Ref">/RT PXI Target - MF3/Common/Share Variables.lvlib/stop</Property>
 	<Property Name="varPersistentID:{8DF09C5C-B0E4-4218-95A4-35C99C6FA4BD}" Type="Ref">/RT PXI Target - MF3/Common/helpers/Change Mode Request.vi/RS Bistable/reset</Property>
 	<Property Name="varPersistentID:{8E971E97-C3CB-4C14-8C04-53C277B6ADAE}" Type="Ref">/RT PXI Target - MF3/Common/Share Variables.lvlib/mf3_forces</Property>
@@ -1314,8 +1315,6 @@ AddOutputFilter chunkFilter
 			<Item Name="nirio_resource_hc.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/nirio_resource_hc.ctl"/>
 			<Item Name="niLvFpga_Open_NI 9157.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/NI 9157/niLvFpga_Open_NI 9157.vi"/>
 			<Item Name="_nicrio_cRIO-9505_DriveStatus.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Targets/FPGA/cRIO/cRIO-9505/controls.llb/_nicrio_cRIO-9505_DriveStatus.ctl"/>
-			<Item Name="NI_FunctionBlock Libraries.lvlib" Type="Library" URL="/&lt;vilib&gt;/functionblocks/NI_FunctionBlock Libraries.lvlib"/>
-			<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
